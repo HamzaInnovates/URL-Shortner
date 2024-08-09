@@ -1,6 +1,5 @@
 import pyshorteners
 from PIL import Image,ImageTk
-
 import customtkinter
 import tkinter
 import webbrowser
@@ -34,7 +33,7 @@ def shorten():
 #opens the short url
 def open_url(url):
     webbrowser.open(url)
-back_img = ImageTk.PhotoImage(Image.open("back.png"))
+back_img = ImageTk.PhotoImage(Image.open("assets/back.png"))
 back_lbl = customtkinter.CTkLabel(root,text="",image=back_img)
 back_lbl.pack()
 main_frame= customtkinter.CTkFrame(back_lbl,width=400,height=300,corner_radius=40,bg_color="transparent")
