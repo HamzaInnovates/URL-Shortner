@@ -1,2 +1,2 @@
 # URL-Shortner
- A URL shortner using Python 
+ A URL shortener using Python  (GUI)
